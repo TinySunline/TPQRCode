@@ -7,7 +7,7 @@
 //
 
 #import "TPQRCodeViewController.h"
-
+#import <TPQRCode/TPQRCode.h>
 @interface TPQRCodeViewController ()
 
 @end
@@ -17,7 +17,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+    [btn setBackgroundColor:[UIColor redColor]];
+    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)click{
+    TPQRCode *code = [[TPQRCode alloc] init];
+    [code startReading];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TPQRCode (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TPQRCode (from `../`)
+
+EXTERNAL SOURCES:
+  TPQRCode:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TPQRCode: 1f27ea8120e11c8fa57ee1f1f0406505d9f3f43b
+
+PODFILE CHECKSUM: 6d8d3ba36b7f56dae2600d426ff56356bb56377d
+
+COCOAPODS: 1.2.0

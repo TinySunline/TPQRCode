@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109947A3EFCD8DBBED5B632DDE53BD92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
+		1110B4BFBE3442D528288406BDA963FC /* Pods-TPQRCode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC091C49ABD591B48050C5EDED2F7746 /* Pods-TPQRCode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		396B9342791419BDA1150A15CF3ED563 /* Pods-TPQRCode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5776F131B05F48A02C3668CBDFA983EA /* Pods-TPQRCode_Example-dummy.m */; };
+		397AF6971E48276600DACD22 /* QRCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 397AF68E1E48276600DACD22 /* QRCodeViewController.h */; };
+		397AF6981E48276600DACD22 /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397AF68F1E48276600DACD22 /* QRCodeViewController.m */; };
+		397AF69A1E48276600DACD22 /* UIColorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 397AF6911E48276600DACD22 /* UIColorAdditions.h */; };
+		397AF69B1E48276600DACD22 /* UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 397AF6921E48276600DACD22 /* UIColorAdditions.m */; };
+		397AF69C1E48276600DACD22 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 397AF6931E48276600DACD22 /* UIView+Frame.h */; };
+		397AF69D1E48276600DACD22 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 397AF6941E48276600DACD22 /* UIView+Frame.m */; };
+		397AF6A01E48279800DACD22 /* TPQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 397AF69E1E48279800DACD22 /* TPQRCode.h */; };
+		397AF6A11E48279800DACD22 /* TPQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 397AF69F1E48279800DACD22 /* TPQRCode.m */; };
+		397AF6A21E48280500DACD22 /* TPQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 397AF69E1E48279800DACD22 /* TPQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		397AF6A51E48285A00DACD22 /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397AF68F1E48276600DACD22 /* QRCodeViewController.m */; };
+		397AF6A61E48285F00DACD22 /* TPQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 397AF69F1E48279800DACD22 /* TPQRCode.m */; };
+		397AF6A71E48286200DACD22 /* UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 397AF6921E48276600DACD22 /* UIColorAdditions.m */; };
+		397AF6A81E48286500DACD22 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 397AF6941E48276600DACD22 /* UIView+Frame.m */; };
+		397AF6A91E48288A00DACD22 /* QRCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 397AF68E1E48276600DACD22 /* QRCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		629C13359AE1EAF9B2900CA1FA5DDB5E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A45217BC5E2572256F18B43EA3543CA0 /* ReplaceMe.m */; };
+		67A8CE88D7D2F5DCBBEA94AE1FFD2C3A /* Pods-TPQRCode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FC9025847060F13A848F486CC99B6 /* Pods-TPQRCode_Tests-dummy.m */; };
+		D5DCD9B7DE79A5F76B4476D7CB2567D9 /* TPQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51EB42980BD20C61187C903C42A916 /* TPQRCode-dummy.m */; };
+		D64A64D4211ADE2CDB82071CB74160CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
+		DF5F1DA796FE70879EF70060ECC884C5 /* Pods-TPQRCode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9613E3470BB2ACE2C9E268B20FEF3B6F /* Pods-TPQRCode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1EE8DB5AF54420BDA380550917897ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
+		F9D22FCF0A4C1E433EC8EF4C595361C5 /* TPQRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B8A086053F722EE8B7A2F1A2661496 /* TPQRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D7A0D1908AF53FA38D631295DA0316C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66AE0293DB702D0E22E691C0BC60056B;
+			remoteInfo = TPQRCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0FAA8610C999404BAE997E6FBBA2B51F /* Pods-TPQRCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPQRCode_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1948C8B8F644E140B4C8E91584289E9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9FC9025847060F13A848F486CC99B6 /* Pods-TPQRCode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPQRCode_Tests-dummy.m"; sourceTree = "<group>"; };
+		30E9ABFE5208794CF92267C4E0B3985B /* Pods_TPQRCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPQRCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DD82838EDA525EA089AE8B8B2CBD9B /* Pods-TPQRCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPQRCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		397AF68E1E48276600DACD22 /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		397AF68F1E48276600DACD22 /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		397AF6911E48276600DACD22 /* UIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorAdditions.h; sourceTree = "<group>"; };
+		397AF6921E48276600DACD22 /* UIColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorAdditions.m; sourceTree = "<group>"; };
+		397AF6931E48276600DACD22 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		397AF6941E48276600DACD22 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		397AF69E1E48279800DACD22 /* TPQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPQRCode.h; sourceTree = "<group>"; };
+		397AF69F1E48279800DACD22 /* TPQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPQRCode.m; sourceTree = "<group>"; };
+		3C32099E0A716483F90035D502A494AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4346D753C341FDDFE5D011EE6E9741F6 /* Pods-TPQRCode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPQRCode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5776F131B05F48A02C3668CBDFA983EA /* Pods-TPQRCode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPQRCode_Example-dummy.m"; sourceTree = "<group>"; };
+		68D9F1046BD188BB69FD12E0938F5039 /* TPQRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TPQRCode.modulemap; sourceTree = "<group>"; };
+		6A408C7BF85A355CBA281C971B55D6DB /* TPQRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D6B85614C61F3B33ADCBA6B91E93EF /* Pods-TPQRCode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPQRCode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88258C95CC95D4A84DB3ACF1B55A4DDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6C827E6B4D70C66DC117DE161DC61C /* Pods-TPQRCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPQRCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8F51EB42980BD20C61187C903C42A916 /* TPQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPQRCode-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9613E3470BB2ACE2C9E268B20FEF3B6F /* Pods-TPQRCode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPQRCode_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9A689905D651368F2B375E9E207D7105 /* TPQRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPQRCode.xcconfig; sourceTree = "<group>"; };
+		9F1C4FD6C533A182958639A275436F35 /* Pods-TPQRCode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPQRCode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A45217BC5E2572256F18B43EA3543CA0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		ADBFE2270963F32D230622C882F6E5DB /* Pods-TPQRCode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPQRCode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEC828FB21C2B17C2FA029AF5E4B9EDD /* Pods-TPQRCode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPQRCode_Tests.modulemap"; sourceTree = "<group>"; };
+		B3A8C34971D451F1A418B38CA7F6DC4F /* TPQRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPQRCode-prefix.pch"; sourceTree = "<group>"; };
+		BC25ADAFB39A2285D464569CA4B4E318 /* Pods-TPQRCode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPQRCode_Example.modulemap"; sourceTree = "<group>"; };
+		CE84426B142E7B784843F412153814E1 /* Pods-TPQRCode_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPQRCode_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D079665E186008C72838711EF4AE16DB /* Pods_TPQRCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPQRCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E6B8A086053F722EE8B7A2F1A2661496 /* TPQRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPQRCode-umbrella.h"; sourceTree = "<group>"; };
+		EA76B85CCEB4B0E1879BA28F05DA7093 /* Pods-TPQRCode_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPQRCode_Example-resources.sh"; sourceTree = "<group>"; };
+		EB41F23AC61F1CE8AC4420723E0AD9CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC091C49ABD591B48050C5EDED2F7746 /* Pods-TPQRCode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPQRCode_Example-umbrella.h"; sourceTree = "<group>"; };
+		F4B8F6930D9B1041DD785ABCD27E2786 /* Pods-TPQRCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPQRCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F98BE87590B604429D051D13BA4376C3 /* Pods-TPQRCode_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPQRCode_Tests-resources.sh"; sourceTree = "<group>"; };
+		FC70A4C09EF0977734C25F195293B448 /* Pods-TPQRCode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPQRCode_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C1EC9CAADFC9F53118A8663ECE398B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EE8DB5AF54420BDA380550917897ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7F579A882D8FD7AC5E329354A196A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64A64D4211ADE2CDB82071CB74160CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE5B12A040CAE675F83BF8A05B66813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109947A3EFCD8DBBED5B632DDE53BD92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D96DBB1D713542BBDAC4E6C908DA507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E9ABFE5208794CF92267C4E0B3985B /* Pods_TPQRCode_Example.framework */,
+				D079665E186008C72838711EF4AE16DB /* Pods_TPQRCode_Tests.framework */,
+				6A408C7BF85A355CBA281C971B55D6DB /* TPQRCode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76C5E10C253876355FB231229C42226 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E04F07A3B89A1DFCEE157044C4EABC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB41F23AC61F1CE8AC4420723E0AD9CE /* Info.plist */,
+				68D9F1046BD188BB69FD12E0938F5039 /* TPQRCode.modulemap */,
+				9A689905D651368F2B375E9E207D7105 /* TPQRCode.xcconfig */,
+				8F51EB42980BD20C61187C903C42A916 /* TPQRCode-dummy.m */,
+				B3A8C34971D451F1A418B38CA7F6DC4F /* TPQRCode-prefix.pch */,
+				E6B8A086053F722EE8B7A2F1A2661496 /* TPQRCode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TPQRCode";
+			sourceTree = "<group>";
+		};
+		723A5C88AEE7A8C9788CD89D31F7EE08 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0886CE8A2AB9E57E10F694B9A6A5E41 /* Pods-TPQRCode_Example */,
+				A09551550C07A70C058701FAD9859BBE /* Pods-TPQRCode_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		75348F6EBC1ACDF40143527FCE8DB6A0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				397AF69E1E48279800DACD22 /* TPQRCode.h */,
+				397AF69F1E48279800DACD22 /* TPQRCode.m */,
+				397AF68E1E48276600DACD22 /* QRCodeViewController.h */,
+				397AF68F1E48276600DACD22 /* QRCodeViewController.m */,
+				397AF6911E48276600DACD22 /* UIColorAdditions.h */,
+				397AF6921E48276600DACD22 /* UIColorAdditions.m */,
+				397AF6931E48276600DACD22 /* UIView+Frame.h */,
+				397AF6941E48276600DACD22 /* UIView+Frame.m */,
+				A45217BC5E2572256F18B43EA3543CA0 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A416CFEB1CCB3C6B28EE4FF960FA3280 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				0D96DBB1D713542BBDAC4E6C908DA507 /* Products */,
+				723A5C88AEE7A8C9788CD89D31F7EE08 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96E35581C862CA15D04FA5AEA76F2EB6 /* TPQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				75348F6EBC1ACDF40143527FCE8DB6A0 /* Classes */,
+			);
+			path = TPQRCode;
+			sourceTree = "<group>";
+		};
+		A09551550C07A70C058701FAD9859BBE /* Pods-TPQRCode_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1948C8B8F644E140B4C8E91584289E9E /* Info.plist */,
+				AEC828FB21C2B17C2FA029AF5E4B9EDD /* Pods-TPQRCode_Tests.modulemap */,
+				4346D753C341FDDFE5D011EE6E9741F6 /* Pods-TPQRCode_Tests-acknowledgements.markdown */,
+				9F1C4FD6C533A182958639A275436F35 /* Pods-TPQRCode_Tests-acknowledgements.plist */,
+				2C9FC9025847060F13A848F486CC99B6 /* Pods-TPQRCode_Tests-dummy.m */,
+				CE84426B142E7B784843F412153814E1 /* Pods-TPQRCode_Tests-frameworks.sh */,
+				F98BE87590B604429D051D13BA4376C3 /* Pods-TPQRCode_Tests-resources.sh */,
+				9613E3470BB2ACE2C9E268B20FEF3B6F /* Pods-TPQRCode_Tests-umbrella.h */,
+				F4B8F6930D9B1041DD785ABCD27E2786 /* Pods-TPQRCode_Tests.debug.xcconfig */,
+				33DD82838EDA525EA089AE8B8B2CBD9B /* Pods-TPQRCode_Tests.release.xcconfig */,
+			);
+			name = "Pods-TPQRCode_Tests";
+			path = "Target Support Files/Pods-TPQRCode_Tests";
+			sourceTree = "<group>";
+		};
+		A416CFEB1CCB3C6B28EE4FF960FA3280 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8E4ED66A61C12A25F8189B150B703A3 /* TPQRCode */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C8E4ED66A61C12A25F8189B150B703A3 /* TPQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				3E04F07A3B89A1DFCEE157044C4EABC9 /* Support Files */,
+				96E35581C862CA15D04FA5AEA76F2EB6 /* TPQRCode */,
+			);
+			name = TPQRCode;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E0886CE8A2AB9E57E10F694B9A6A5E41 /* Pods-TPQRCode_Example */ = {
+			isa = PBXGroup;
+			children = (
+				88258C95CC95D4A84DB3ACF1B55A4DDA /* Info.plist */,
+				BC25ADAFB39A2285D464569CA4B4E318 /* Pods-TPQRCode_Example.modulemap */,
+				85D6B85614C61F3B33ADCBA6B91E93EF /* Pods-TPQRCode_Example-acknowledgements.markdown */,
+				ADBFE2270963F32D230622C882F6E5DB /* Pods-TPQRCode_Example-acknowledgements.plist */,
+				5776F131B05F48A02C3668CBDFA983EA /* Pods-TPQRCode_Example-dummy.m */,
+				FC70A4C09EF0977734C25F195293B448 /* Pods-TPQRCode_Example-frameworks.sh */,
+				EA76B85CCEB4B0E1879BA28F05DA7093 /* Pods-TPQRCode_Example-resources.sh */,
+				EC091C49ABD591B48050C5EDED2F7746 /* Pods-TPQRCode_Example-umbrella.h */,
+				8D6C827E6B4D70C66DC117DE161DC61C /* Pods-TPQRCode_Example.debug.xcconfig */,
+				0FAA8610C999404BAE997E6FBBA2B51F /* Pods-TPQRCode_Example.release.xcconfig */,
+			);
+			name = "Pods-TPQRCode_Example";
+			path = "Target Support Files/Pods-TPQRCode_Example";
+			sourceTree = "<group>";
+		};
+		F76C5E10C253876355FB231229C42226 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */,
+				41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */,
+				0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */,
+				3C32099E0A716483F90035D502A494AC /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5756B82F1451B1482AB9A050A2A08FD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5F1DA796FE70879EF70060ECC884C5 /* Pods-TPQRCode_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9883A13E93289371ED2BC88E1CA09968 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D22FCF0A4C1E433EC8EF4C595361C5 /* TPQRCode-umbrella.h in Headers */,
+				397AF6A21E48280500DACD22 /* TPQRCode.h in Headers */,
+				397AF6A91E48288A00DACD22 /* QRCodeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE6E54BEDD2234DC58CFBD372CD4E18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1110B4BFBE3442D528288406BDA963FC /* Pods-TPQRCode_Example-umbrella.h in Headers */,
+				397AF6971E48276600DACD22 /* QRCodeViewController.h in Headers */,
+				397AF6A01E48279800DACD22 /* TPQRCode.h in Headers */,
+				397AF69A1E48276600DACD22 /* UIColorAdditions.h in Headers */,
+				397AF69C1E48276600DACD22 /* UIView+Frame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		66AE0293DB702D0E22E691C0BC60056B /* TPQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5DA7BB8C3ACD45D66E3E31E0F1EC44 /* Build configuration list for PBXNativeTarget "TPQRCode" */;
+			buildPhases = (
+				04A9EEB6C45D32846DFDC3FDD7397FB6 /* Sources */,
+				BF7F579A882D8FD7AC5E329354A196A1 /* Frameworks */,
+				9883A13E93289371ED2BC88E1CA09968 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPQRCode;
+			productName = TPQRCode;
+			productReference = 6A408C7BF85A355CBA281C971B55D6DB /* TPQRCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE5D99B5CBA47B61B88446AE62A363DE /* Pods-TPQRCode_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A495068FE4A5652DC4736A15E3B936A4 /* Build configuration list for PBXNativeTarget "Pods-TPQRCode_Example" */;
+			buildPhases = (
+				BE403512665FF8BE2339FD9C03B99EE7 /* Sources */,
+				03C1EC9CAADFC9F53118A8663ECE398B /* Frameworks */,
+				FEE6E54BEDD2234DC58CFBD372CD4E18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD196EABAA38E105D0F7D130D44426C /* PBXTargetDependency */,
+			);
+			name = "Pods-TPQRCode_Example";
+			productName = "Pods-TPQRCode_Example";
+			productReference = 30E9ABFE5208794CF92267C4E0B3985B /* Pods_TPQRCode_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2C71436F7E2DDA572EBA018CA55A4B7 /* Pods-TPQRCode_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8DAA61397EFE19DD5A9C04EA9866EE3 /* Build configuration list for PBXNativeTarget "Pods-TPQRCode_Tests" */;
+			buildPhases = (
+				84D6DB907458FAC7E63FB212427352BE /* Sources */,
+				CBE5B12A040CAE675F83BF8A05B66813 /* Frameworks */,
+				5756B82F1451B1482AB9A050A2A08FD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TPQRCode_Tests";
+			productName = "Pods-TPQRCode_Tests";
+			productReference = D079665E186008C72838711EF4AE16DB /* Pods_TPQRCode_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0D96DBB1D713542BBDAC4E6C908DA507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5D99B5CBA47B61B88446AE62A363DE /* Pods-TPQRCode_Example */,
+				F2C71436F7E2DDA572EBA018CA55A4B7 /* Pods-TPQRCode_Tests */,
+				66AE0293DB702D0E22E691C0BC60056B /* TPQRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A9EEB6C45D32846DFDC3FDD7397FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397AF6A81E48286500DACD22 /* UIView+Frame.m in Sources */,
+				629C13359AE1EAF9B2900CA1FA5DDB5E /* ReplaceMe.m in Sources */,
+				D5DCD9B7DE79A5F76B4476D7CB2567D9 /* TPQRCode-dummy.m in Sources */,
+				397AF6A71E48286200DACD22 /* UIColorAdditions.m in Sources */,
+				397AF6A51E48285A00DACD22 /* QRCodeViewController.m in Sources */,
+				397AF6A61E48285F00DACD22 /* TPQRCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D6DB907458FAC7E63FB212427352BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A8CE88D7D2F5DCBBEA94AE1FFD2C3A /* Pods-TPQRCode_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE403512665FF8BE2339FD9C03B99EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397AF69B1E48276600DACD22 /* UIColorAdditions.m in Sources */,
+				396B9342791419BDA1150A15CF3ED563 /* Pods-TPQRCode_Example-dummy.m in Sources */,
+				397AF6A11E48279800DACD22 /* TPQRCode.m in Sources */,
+				397AF69D1E48276600DACD22 /* UIView+Frame.m in Sources */,
+				397AF6981E48276600DACD22 /* QRCodeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD196EABAA38E105D0F7D130D44426C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPQRCode;
+			target = 66AE0293DB702D0E22E691C0BC60056B /* TPQRCode */;
+			targetProxy = 4D7A0D1908AF53FA38D631295DA0316C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03BCF7CB27F228257EE1C7451BDCD2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAA8610C999404BAE997E6FBBA2B51F /* Pods-TPQRCode_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPQRCode_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPQRCode_Example/Pods-TPQRCode_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPQRCode_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		03DDA07A6E4E680BA1850827F2B2343B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6C827E6B4D70C66DC117DE161DC61C /* Pods-TPQRCode_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPQRCode_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPQRCode_Example/Pods-TPQRCode_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPQRCode_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BEF453A002DF3E2DDDFD8C8B2712FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B8F6930D9B1041DD785ABCD27E2786 /* Pods-TPQRCode_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPQRCode_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPQRCode_Tests/Pods-TPQRCode_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPQRCode_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51147B137B08075C95E416916EC8D245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A689905D651368F2B375E9E207D7105 /* TPQRCode.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPQRCode/TPQRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPQRCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPQRCode/TPQRCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TPQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		805C3B0FCE2948990101C0031ED58745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DD82838EDA525EA089AE8B8B2CBD9B /* Pods-TPQRCode_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPQRCode_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPQRCode_Tests/Pods-TPQRCode_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPQRCode_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C8F0413D1C9C7C8AF8FF483082A9556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A689905D651368F2B375E9E207D7105 /* TPQRCode.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPQRCode/TPQRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPQRCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPQRCode/TPQRCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TPQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A495068FE4A5652DC4736A15E3B936A4 /* Build configuration list for PBXNativeTarget "Pods-TPQRCode_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DDA07A6E4E680BA1850827F2B2343B /* Debug */,
+				03BCF7CB27F228257EE1C7451BDCD2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8DAA61397EFE19DD5A9C04EA9866EE3 /* Build configuration list for PBXNativeTarget "Pods-TPQRCode_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BEF453A002DF3E2DDDFD8C8B2712FB6 /* Debug */,
+				805C3B0FCE2948990101C0031ED58745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5DA7BB8C3ACD45D66E3E31E0F1EC44 /* Build configuration list for PBXNativeTarget "TPQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51147B137B08075C95E416916EC8D245 /* Debug */,
+				9C8F0413D1C9C7C8AF8FF483082A9556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

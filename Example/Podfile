@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TPQRCode_Example' do
+  pod 'TPQRCode', :path => '../'
+
+  target 'TPQRCode_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

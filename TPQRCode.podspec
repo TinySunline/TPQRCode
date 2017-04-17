@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TPQRCode'
-  s.version          = '0.1.0'
+  s.version          = '2.0.1'
   s.summary          = 'Tiny二维码扫描器 js扩展.'
 
 # This description is used to generate tags and improve search results.

@@ -20,6 +20,13 @@
 -(id)init
 {
     if(self = [super init]) {
+        Class TinyPlus=NSClassFromString(@"TinyPlus");
+        if(TinyPlus){
+            id tinyPlusInPod  =  [[TinyPlus alloc] init];
+            if([tinyPlusInPod respondsToSelector:@selector(getViewController)]){
+                self.viewController =[tinyPlusInPod performSelector:@selector(getViewController)];
+            }
+        }
         _qrCV = [[QRCodeViewController alloc]init];
         _qrCV.delegate = self;
     }
@@ -28,10 +35,8 @@
 
 -(void)startReading
 {
-    UIViewController *window = [UIApplication sharedApplication].keyWindow.rootViewController;
-
     _qrCV.bottomTitle = self.bottomTitle;
-    [window presentViewController:_qrCV animated:YES completion:nil];
+    [self.viewController presentViewController:_qrCV animated:YES completion:nil];
 }
 
 #pragma mark  回调得到二维码扫描结果
@@ -57,6 +62,5 @@
         success = nil;
     }
 }
-
 
 @end

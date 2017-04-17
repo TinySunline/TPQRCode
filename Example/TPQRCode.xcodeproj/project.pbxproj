@@ -536,7 +536,7 @@
 				GCC_PREFIX_HEADER = "TPQRCode/TPQRCode-Prefix.pch";
 				INFOPLIST_FILE = "TPQRCode/TPQRCode-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sunline.org.cocoapods.demo.TPQRCode-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunline.tiny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -552,7 +552,7 @@
 				GCC_PREFIX_HEADER = "TPQRCode/TPQRCode-Prefix.pch";
 				INFOPLIST_FILE = "TPQRCode/TPQRCode-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sunline.org.cocoapods.demo.TPQRCode-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunline.tiny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
